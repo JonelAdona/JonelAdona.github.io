@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonel F. Adona | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+
+    <!-- Navigation 1-->
+    <nav>
+        <a href="#" data-section="home" class="nav-link active-link">Home</a>
+        <a href="#" data-section="about" class="nav-link">About</a>
+        <a href="#" data-section="projects" class="nav-link">Projects</a>
+        <a href="#" data-section="resume" class="nav-link">Resume</a>
+        <a href="#" data-section="contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="active-section">
+        <div class="home-header">
+            <div class="home-photo">
+                <img src="Images/profile.png" alt="Jonel F. Adona" />
+            </div>
+            <div class="home-text">
+                <h1>Jonel Flores Adona</h1>
+                <p>Hello! I'm Jonel F. Adona, a simple and efficient learner who tries his best to learn things,
+                    I'm currently trying to expand my knowledge in tech related subjects and hopefully one day I get to work in a development industry.
+                </p>
+                <div class="subhead">BSIT Specialized in Web and Mobile Application Student</div>                <a href="#" data-section="projects" class="btn nav-link">See my work →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a motivated web development student with a growing toolkit. I love learning how things work under the hood, and I'm especially interested in creating intuitive, user-friendly interfaces. I believe good design is both beautiful and functional.</p>
+        <div class="about-grid">
+            <div>
+                <h3>Background</h3>
+                <ul>
+                    <li><strong>Education:</strong>
+                        <ul>
+                            <li>FEUTECH - BS in Information Technology (ongoing)</li>
+                            <li>Punturin SHS - STEM Course (2022-2024)</li>
+                            <li>Bignay NHS (2017-2022)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Interests:</strong> Online games, Volleyball, Rubiks, Problem-solving/Puzzles</li>
+                    <li><strong>Goals:</strong> Become a versatile developer and contribute to open-source projects and if not, a professional athlete</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5(Basic)</span>
+                    <span class="skill-tag">CSS3(Basic)</span>
+                    <span class="skill-tag">JavaScript (basic)</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">Efficient Learner</span>
+                    <span class="skill-tag">Team collaboration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>JAKENPOY - CPP Project</h3>
+                <div class="project-img-wrapper" onclick="openLightbox('project1.jpg')">
+                    <img src="Images/project1.jpg" alt="JAKENPOY project screenshot" />
+                </div>
+                <p>Recreated a simple childhood game we play into a interactive game in C++</p>
+                <p class="project-tag">#CPP #FirstProject</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Payroll System</h3>
+                <div class="project-img-wrapper" onclick="openLightbox('Project2.jpg')">
+                    <img src="Images/Project2.jpg" alt="Payroll System screenshot" />
+                </div>
+                <p>A simple interactive payroll system where you can login, calculate pay and more!</p>
+                <p class="project-tag">#SecondProject #Idonthavethefinalcode</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume/Experiences -->
+    <section id="resume">
+        <h2>Resume & Experience</h2>
+        <div>
+            <h3>Education</h3>
+            <ul>
+                <li><strong>BS Information Technology</strong> — ongoing (2024–present)</li>
+                <li><strong>Science, Technology, Engineering, Mathematics (STEM)</strong> — Graduated (2022-2024)</li>
+                <li><strong>Networking 1</strong> — online certificate (2026)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>Work Immersion</strong> — Task with designing tables, decorations, encoding datas (2024)</li>
+                <li><strong>NSTP Volunteering Immersion</strong> — Volunteered with various events like serving food, cleaning, packaging and more</li>
+                <li><strong>Piloting Accounts</strong> — I did a small activity for Entrepreneurship class helping other players play their accounts when they can't</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Certifications & Achievements</h3>
+            <ul>
+                <li>Networking 1 Certificate — Networking 1 Class (2026)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>I'd love to hear from you — feel free to reach out!</p>
+        <div class="contact-card">
+            <p><strong>Email:</strong> <a href="mailto:joneladona65@gmail.com">joneladona65@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+639123456789">+63 945 881 7325</a></p>
+            <p><strong>Social / links:</strong></p>
+            <div class="contact-links">
+                <a href="https://github.com/JonelAdona" target="_blank">GitHub<br />https://github.com/JonelAdona</a>
+                <a href="https://www.linkedin.com/in/jonel-adona-162800413" target="_blank">LinkedIn<br />www.linkedin.com/in/jonel-adona-162800413</a>
+                <a href="https://www.facebook.com/jonelf.adona" target="_blank">Facebook<br />https://www.facebook.com/jonelf.adona</a>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <footer>
+        2026 Jonel Adona | Web Design Final Project
+    </footer>
+</div>
+
+<!-- For Full Screen -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" src="" alt="Full size image" />
+</div>
+
+<!-- JavaScipt -->
+<script>
+    // Menu navigation
+    (function() {
+        const sections = {
+            home: document.getElementById('home'),
+            about: document.getElementById('about'),
+            projects: document.getElementById('projects'),
+            resume: document.getElementById('resume'),
+            contact: document.getElementById('contact')
+        };
+
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        function showSection(sectionId) {
+            Object.keys(sections).forEach(key => {
+                sections[key].classList.remove('active-section');
+            });
+            if (sections[sectionId]) {
+                sections[sectionId].classList.add('active-section');
+            }
+            navLinks.forEach(link => {
+                link.classList.remove('active-link');
+                if (link.dataset.section === sectionId) {
+                    link.classList.add('active-link');
+                }
+            });
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const section = this.dataset.section;
+                if (section) {
+                    showSection(section);
+                    history.pushState(null, '', '#' + section);
+                }
+            });
+        });
+
+        function handleHash() {
+            const hash = window.location.hash.replace('#', '');
+            if (hash && sections[hash]) {
+                showSection(hash);
+            } else {
+                showSection('home');
+            }
+        }
+
+        window.addEventListener('hashchange', handleHash);
+        handleHash();
+    })();
+
+    // Light box 
+    function openLightbox(imageSrc) {
+        const lightbox = document.getElementById('lightbox');
+        const img = document.getElementById('lightbox-img');
+        img.src = imageSrc;
+        lightbox.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        const lightbox = document.getElementById('lightbox');
+        lightbox.classList.remove('show');
+        document.body.style.overflow = 'auto';
+    }
+
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeLightbox();
+        }
+    });
+</script>
+</body>
+</html>
